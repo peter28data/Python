@@ -63,6 +63,8 @@ model_preds = {
   "Logistic Regression": log_reg_preds,
   "Support Vector Machine": svm_preds,
   "Decision Tree": tree_preds
+
+# We did not cover K-Nearest neighbors (KNN) classification with scikit-learn
 }
 
 for model, preds in model_preds.items():
