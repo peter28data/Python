@@ -1,4 +1,4 @@
-### The following script cover three different ML models used for Data Science; Logistic Regression, Support Vector Machine, and Decision Tree. 
+### The following script cover three different ML models used for Data Science; Logistic Regression, Support Vector Machine, Decision Tree, Random Forests, AdaBoost, Gradient Boosting, and Stochastic Gradient Boosting. 
 
 import pandas as pd
 from sklearn.datasets import load_wine
@@ -161,6 +161,7 @@ importances_sorted.plot(kind='barh', color='lightgreen')
 plt.title('Features Importances')
 plt.show()
 
+
 ### AdaBoost Classifier
 # Import DecisionTreeClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -189,6 +190,7 @@ ada_roc_auc = roc_auc_score(y_test, y_pred_proba)
 # Print roc_auc_score
 print('ROC AUC score: {:.2f}'.format(ada_roc_auc))
 
+
 ### Gradient Boosting
 # Import GradientBoostingRegressor
 from sklearn.ensemble import GradientBoostingRegressor
@@ -215,6 +217,7 @@ rmse_test = MSE(y_test, y_pred)**(1/2)
 
 # Print RMSE
 print('Test set RMSE of gb: {:.3f}'.format(rmse_test))
+
 
 ### Stochastic Gradient Boosting
 # Import GradientBoostingRegressor
@@ -244,3 +247,55 @@ rmse_test = mse_test**(1/2)
 
 # Print rmse_test
 print('Test set RMSE of sgbr: {:.3f}'.format(rmse_test))
+
+
+### Model Tuning: Classification and Regression Trees (CART) are a set of supervised learning models.
+Parameters: learned from data such as split-point of a node, split-feature of a node.
+Hyperparameters: not learned from data, set prior to training such as max_depth, min_samples_leaf, splitting criterion
+
+Hyperparameter Tuning is finding a set of optimal hyperparameters that result in the highest accuracy for clasification problems and highest R^2 for regression problems. 
+-Grid Search 
+-Random Search
+-Bayesian Optimization
+-Genetic Algorithms
+
+# Import GridSearchCV and define the grid of hyperparameters to tune
+from sklearn.model_selection import GridSearchCV
+params_dt = {'max_depth': [3, 4, 5, 6],
+              'min_samples_leaf': [0.04, 0.06, 0.08],
+              'max_features': [0.2, 0.4, 0.6, 0.8]}
+
+# Instantiate a 10-fold CV grid search object
+grid_dt = GridSearchCV(estimator=dt, 
+                      param_grid=params_dt,
+                      scoring='accuracy',  # Or 'roc_auc'
+                      cv=10,
+                      n_jobs=-1)
+grid_dt.fit(X_train, y_train)
+# Extract best hyperparameters from 'grid_dt'
+best_hyperparams = grid_dt.best_params_
+print('Best hyperparameters:\n', best_hyperparams)
+best_CV_score = grid_dt.best_score_
+print('Best CV accuracy'.format(best_CV_score))
+
+# Extract best model from 'grid_dt'
+best_model = grid_dt.best_estimator_
+test_acc = best_model.score(X_test, y_test)
+print("Test set accuracy of best model: {:.3f}".format(test_acc))
+
+# Inspect the hyperparameters
+rf.get_params()
+params_rf = { 'n_estimators': [100, 300, 500],
+              'min_samples_leaf': [2, 10, 30],
+              'max_features': ['log2', 'auto', 'sqrt'] }
+
+# Instantiate a 3 fold grid search
+from sklearn.model_selection import GridSearchCV
+grid_rf = GridSearchCV(estimator=rf,
+                        param_grid=params_rf,
+                        scoring='neg_mean_squared_error',
+                        cv=3,
+                        verbose=1,
+                        n_jobs=-1)
+
+# Evaluate the optimal forest 
