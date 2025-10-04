@@ -13,3 +13,11 @@ print(nth_root(3)(27))
 def sorted_elements(x, desc=True, n=2):
   new_x = sorted(x, reverse=desc)[0:n]
   return new_x
+
+# ---------------------- Task 3: Return Positive Numbers ----------------------------
+
+filter_positives = filter(lambda n: n > 0, x)
+print(list(filter_positives))
+
+# --------------------------------------------------------------------------
+
