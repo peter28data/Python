@@ -28,4 +28,14 @@ df = data.parse(1, parse_cols=[0],
                 names=['Country'])
 print(df.head())
 
-# --------------------------------------------------------------------------
+# ---------------------- Task 5: Return Data Type ---------------------------------
+
+import scipy.io
+filename = 'file.mat'
+mat = scipy.io.loadmat(filename)
+print(type(mat))
+
+
+
+
+
