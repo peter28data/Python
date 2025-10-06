@@ -36,6 +36,44 @@ mat = scipy.io.loadmat(filename)
 print(type(mat))
 
 
+# ---------------------- Task 6: Import File ---------------------------------------
+
+seaslugs = np.loadtxt(file,
+                      delimiter= "/t",
+                      skiprows=1)
+print(seaslugs[0:3])
+
+
+# --------------------------------------------------------------------------
+
+# keys are equivalent to MATLAB variable names
+# values are equivalent to objects assigned to variables
+
+# --------------------- Task 7: Equivalent Code ------------------------------
+
+# 1
+np.recfromcsv(filename)
+
+# 2
+np.genfromtxt(filename,
+              delimiter=',',
+              dtype=None,
+              names=True)
+
+# -------------------- Task 8: Equivalent Code -----------------------------------
+
+# 1
+file = open('filename.txt', mode='r')
+file.close()
+
+# 2
+with open('filename.txt','r') as file:
+
+# --------------------------------------------------------------------------
+
+
+
+
 
 
 
