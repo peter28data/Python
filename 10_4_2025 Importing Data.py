@@ -16,10 +16,12 @@ engine = create_engine('sqlite:///Chinook.sqlite')
 table_names = engine.table_names()
 print(table_names[0:4])
 
+
 # ----------------------- Task 3: Read part of CSV ---------------------------------
 
 titanic_data = pd.read_csv('titanic.csv', nrows=2, header=0)
 print(titanic_data)
+
 
 # ----------------------- Task 4: Read Second Excel Sheet, first 4 rows ------------
 
@@ -27,6 +29,7 @@ df = data.parse(1, parse_cols=[0],
                 skiprows="0",
                 names=['Country'])
 print(df.head())
+
 
 # ---------------------- Task 5: Return Data Type ---------------------------------
 
@@ -60,6 +63,7 @@ np.genfromtxt(filename,
               dtype=None,
               names=True)
 
+
 # -------------------- Task 8: Equivalent Code -----------------------------------
 
 # 1
@@ -69,7 +73,19 @@ file.close()
 # 2
 with open('filename.txt','r') as file:
 
-# --------------------------------------------------------------------------
+  
+# -------------------- Task 9: Sub-Parts 'text' and 'lang' --------------------------
+
+df = pd.DataFrame(tweets_data,
+                  columns=['lang'])
+print(df.head())
+
+
+# ------------------- Task 10: Retrieve Director's Name ------------------------------
+
+with open("another.json") as json_file:
+  json_data = json.load(json_file)
+  print(json_data["Director"])
 
 
 
