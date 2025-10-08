@@ -124,3 +124,49 @@ print(s.title)
 
 
 
+
+
+# -------------------- Task 12: Web Scraping Hyperlinks -------------------------------
+
+for link in a_tags:
+  print(link.get('href'))
+
+# Assignment of Tags
+a_tags = soup.find_all('a')
+
+
+
+
+
+# ------------------- Task 13: Output Desired Number of Hyperlinks -------------------
+
+for link in s.find_all("a")[:3]:
+  print(link.get('href'))
+
+
+
+
+
+# ------------------ Task 14: Web Scraping & API Keys --------------------------------
+
+url = ('http://www.omdbapi.com/?apikey=72bc447a&t=the+social+network')
+r = requests.get(url)
+json_data = r.json()
+print(json_data['Awards'])
+
+
+
+
+
+# ------------------ Task 15: Flat File Printing -------------------------------------
+
+urlretrieve(url,'winequality-red.csv')
+df = pd.read_csv('winequality-red.csv',
+                 sep=';')
+print(df[['alcohol','quality']].head()
+
+
+
+
+
+# --------------------------------------------------------------------------
