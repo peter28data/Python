@@ -166,6 +166,7 @@ df = pd.read_csv('winequality-red.csv',
 print(df[['alcohol','quality']].head()
 
 
+      
 
 
 
