@@ -10,6 +10,9 @@ with engine.connect() as con:
 df = pd.read_sql_query("SELECT * FROM Album", engine)
 
 
+
+
+
 # ------------------------ Task 2: Retrieve first 4 Elements -----------------------
 
 engine = create_engine('sqlite:///Chinook.sqlite')
