@@ -33,4 +33,35 @@ plt.show()
 sns.regplot(data=state_unemployment,
             x="month",
             y="unemployment_rate",
-            order=2)
+            order=2,
+            size="average_salary")
+
+
+
+
+
+# -----------------------------------------------------------------
+
+sns.relplot(x="age",
+            y="rating",
+            data=fifa_subset,
+            kind="line")
+
+plt.show()
+
+
+
+
+# -----------------------------------------------------------------
+
+# See the difference in preferred foot used in soccer based on nationality
+sns.countplot(x="nationality",
+              hue="preferred_foot",
+              data=fifa_chelsea)
+
+plt.show()
+
+
+
+# -----------------------------------------------------------------
+
