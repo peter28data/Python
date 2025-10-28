@@ -184,6 +184,7 @@ print(df[['alcohol','quality']].head()
       
 
 
+
       
 
 
