@@ -53,14 +53,12 @@ print(type(mat))
 
 
 
-
 # ---------------------- Task 6: Import File ---------------------------------------
 
 seaslugs = np.loadtxt(file,
                       delimiter= "/t",
                       skiprows=1)
 print(seaslugs[0:3])
-
 
 
 
