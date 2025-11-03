@@ -128,6 +128,7 @@ print(s.title)
 
 
 
+
 # -------------------- Task 12: Web Scraping Hyperlinks -------------------------------
 
 for link in a_tags:
