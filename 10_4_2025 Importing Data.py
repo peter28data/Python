@@ -105,6 +105,7 @@ print(df.head())
 
 
 
+
 # ------------------- Task 10: Retrieve Director's Name ------------------------------
 
 with open("another.json") as json_file:
