@@ -84,3 +84,4 @@ ax1.axvline(x=5, label='Rate 5.0', linestyle='--')
 
 plt.show()
 
+
