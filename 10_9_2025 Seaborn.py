@@ -10,7 +10,7 @@ sns.displot(us_salaries['salary'],
 
 # --------------------------------------------------------------------------
 
-# Joint Grid using KDE Plot
+# Joint Grid, KDE Plot
 joint = sns.JointGrid(data=subset,
                       x="mintemp",
                       y="windgustspeed")
