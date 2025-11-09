@@ -3,8 +3,10 @@
 # 1: Traditional way
 with engine.connect() as con:
   rs = con.execute("SELECT * FROM Album")
+  
   df = pd.DataFrame(rs.fetchall())
   df.columns=rs.keys()
+
 
 # 2: Modern way
 df = pd.read_sql_query("SELECT * FROM Album", engine)
