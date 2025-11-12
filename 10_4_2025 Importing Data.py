@@ -70,6 +70,8 @@ print(seaslugs[0:3])
 # keys are equivalent to MATLAB variable names
 # values are equivalent to objects assigned to variables
 
+
+
 # --------------------- Task 7: Equivalent Code ------------------------------
 
 # 1
