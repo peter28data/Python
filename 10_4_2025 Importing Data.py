@@ -125,6 +125,7 @@ with open("another.json") as json_file:
 url = 'https://www.python.org/~guido/'
 r = requests.get(url)
 html_doc = r.text
+
 s = BeautifulSoup(html_doc)
 print(s.title)
 
