@@ -17,6 +17,7 @@ print(nth_root(3)(27))
 # ---------------------- Task 2: Return Largest from List --------------------------
 
 def sorted_elements(x, desc=True, n=2):
+  # '[0:n]' will return a subset of specified indexes
   new_x = sorted(x, reverse=desc)[0:n]
   return new_x
 
