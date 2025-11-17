@@ -1,9 +1,11 @@
 # ---------------------- Task 1: Nested Function -------------------------------------
 
 def nth_rot(n):
+  # Function within a Function
   def actual_root(x):
-    
+    # Nested function raises x to the inverse of n to be square root, cube root, etc.
     root = x ** (1/n)
+    
     return root 
   return actual_root
 print(nth_root(3)(27))
