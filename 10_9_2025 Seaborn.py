@@ -78,8 +78,10 @@ sns.violinplot(data=state_unemployment,
 
 # Add Dashed Line
 fig, (ax0, ax1) = plt.subplots(nrows=1, ncols=2, sharey=True)
+
 sns.histplot(use_unemployment.Men, ax=ax0)
-Rsns.histplot(use_unemployment.Women, ax=ax1)
+sns.histplot(use_unemployment.Women, ax=ax1)
+
 ax1.axvline(x=5, label='Rate 5.0', linestyle='--')
 
 plt.show()
