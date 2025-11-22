@@ -8,7 +8,7 @@ print(names)
 
 # Generator function that loads data in chunks
 def read_large_file(file_object):
-  """A generator function ro read a large file lazily."""
+  """A generator function to read a large file lazily."""
   while True:
     data = file_object.readline()
     
