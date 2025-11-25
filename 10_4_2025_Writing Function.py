@@ -30,6 +30,7 @@ def sorted_elements(x, desc=True, n=2):
 # ---------------------- Task 3: Return Positive Numbers ----------------------------
 
 filter_positives = filter(lambda n: n > 0, x)
+
 print(list(filter_positives))
 
 
