@@ -126,6 +126,7 @@ with open("another.json") as json_file:
 
 url = 'https://www.python.org/~guido/'
 r = requests.get(url)
+
 html_doc = r.text
 
 s = BeautifulSoup(html_doc)
@@ -161,6 +162,7 @@ for link in s.find_all("a")[:3]:
 
 url = ('http://www.omdbapi.com/?apikey=72bc447a&t=the+social+network')
 r = requests.get(url)
+
 json_data = r.json()
 print(json_data['Awards'])
 
