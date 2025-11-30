@@ -1,4 +1,5 @@
 team_arrow = zip(code_names, characters_names)
+
 cnames, names = zip(*team_arrow)
 
 print(names)
