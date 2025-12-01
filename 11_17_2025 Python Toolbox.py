@@ -20,3 +20,24 @@ def read_large_file(file_object):
 
 -----------------------------------------------------------------
 
+matrix = [[col for col in range(1, 4)] for row in range(3)]
+
+print(matrix)
+
+
+-----------------------------------------------------------------
+
+def to_upper(heroes):
+  for i in heroes:
+    yield i.upper()
+
+print(list(to_upper(superhero_list)))
+
+
+-----------------------------------------------------------------
+
+capitals = {'australia':'canberra', 'belgium':'brussels'}
+
+for key, value in capitals.items():
+
+  print(key, value)
