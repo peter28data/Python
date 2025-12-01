@@ -41,3 +41,6 @@ capitals = {'australia':'canberra', 'belgium':'brussels'}
 for key, value in capitals.items():
 
   print(key, value)
+
+
+-----------------------------------------------------------------
