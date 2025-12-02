@@ -45,6 +45,7 @@ def square(s):
     a = s * s
     p = 4 * s
     return a, p
+    
     expect TypeError:
       print('s can not be a string')
 square('5')
