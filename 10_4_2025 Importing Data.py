@@ -153,6 +153,7 @@ a_tags = soup.find_all('a')
 # ------------------- Task 13: Output Desired Number of Hyperlinks -------------------
 
 for link in s.find_all("a")[:3]:
+  
   print(link.get('href'))
 
 
