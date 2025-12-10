@@ -16,13 +16,13 @@ Help marketing and product teams:
 ## 📊 Key Insights Summary
 
 ### 1️⃣ Users are engaging but not converting at the same rate
-![Time on Site](https://github.com/peter28data/python1/blob/main/page_views.png)
+![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
 - Average **Time on Page** and **Page Views per User** show healthy interest
 - But **Conversion Rate** remains significantly lower than expected  
 ➡️ A focused review of friction points during checkout is necessary
 
 ### 2️⃣ Mobile traffic is high — but cost-inefficient
-![
+![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 - **Mobile users generate ~60% of sessions**
 - Yet **Desktop users drive a higher percentage of purchases**
 - Digital ad spend is currently overweighted toward mobile  
