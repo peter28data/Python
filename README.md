@@ -18,20 +18,22 @@ Help marketing and product teams:
 ### 1️⃣ Users are engaging but not converting at the same rate
 ![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
 - Average **Time on Page** and **Page Views per User** show healthy interest
-- But **Conversion Rate** remains significantly lower than expected  
-➡️ A focused review of friction points during checkout is necessary
+- But **Conversion Rate** remains significantly lower than expected
+
+  ↳ A focused review of friction points during checkout is necessary 
 
 ### 2️⃣ Mobile traffic is high — but cost-inefficient
 ![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 - **Mobile users generate ~60% of sessions**
 - Yet **Desktop users drive a higher percentage of purchases**
 - Digital ad spend is currently overweighted toward mobile  
-➡️ Shift budget to desktop campaigns to improve ROI
+  ↳ Shift budget to desktop campaigns to improve ROI
 
 ### 3️⃣ Returning Customers provide disproportionate revenue
+![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
 - Returning visitors show higher **Add-to-Cart Rate**, **AOV**, and **Final Conversions**
 - Current experience doesn’t reward loyalty  
-➡️ Implement retention strategies (e.g., free shipping, loyalty promos)
+  ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
 
