@@ -26,13 +26,15 @@ Help marketing and product teams:
 ![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 - **Mobile users generate ~60% of sessions**
 - Yet **Desktop users drive a higher percentage of purchases**
-- Digital ad spend is currently overweighted toward mobile  
+- Digital ad spend is currently overweighted toward mobile
+  
   ↳ Shift budget to desktop campaigns to improve ROI
 
 ### 3️⃣ Returning Customers provide disproportionate revenue
 ![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
 - Returning visitors show higher **Add-to-Cart Rate**, **AOV**, and **Final Conversions**
-- Current experience doesn’t reward loyalty  
+- Current experience doesn’t reward loyalty
+  
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
@@ -48,19 +50,6 @@ Tools used:
 - Python (Pandas, NumPy)
 - SQL
 - Tableau for Visualization
-
----
-
-## 📈 Deliverables
-| File | Description |
-|------|-------------|
-| **analysis.ipynb** | Data cleaning, KPI calculations, insight generation |
-| **dashboard.twbx** | Interactive Tableau dashboard |
-| **data/** | Cleaned + mock data files |
-| **README.md** | You’re reading it! 👋 |
-
-Screenshots (Optional example placeholders):
-> Add images of key graphs such as conversion funnel and device performance breakdown
 
 ---
 
@@ -84,8 +73,8 @@ Screenshots (Optional example placeholders):
 For questions or collaboration opportunities:
 
 **Your Name**  
-📧 your.email@example.com  
-🔗 LinkedIn / Portfolio Link  
+📧 peter.garayrobles@gmail.com  
+🔗 Portfolio Link: https://github.com/peter28data/SQL-/blob/main/8_10_2025_Cleaning%20Data.sql
 
 ---
 
