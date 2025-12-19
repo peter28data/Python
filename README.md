@@ -38,18 +38,27 @@ Help marketing and product teams:
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
+![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
+
+---
 
 ## 🧪 Methodology
 | Area | Technique |
 |------|-----------|
-| Data Cleaning | Missing value imputation, date parsing, categorical standardization |
+| Mock Data | NumPy Library, Matplotlib Visuals, Seaborn for Categorical plot |
 | Analysis | Funnel evaluation, segmentation (device & visitor type) |
 | KPIs | CTR, Conversion %, Bounce %, AOV, Customer Value Contribution |
 
+---
+![conversion & devices code](https://github.com/peter28data/Python/blob/main/conversion_devices_code.png)
+
+---
+
 Tools used:
-- Python (Pandas, NumPy)
-- SQL
-- Tableau for Visualization
+- Python (NumPy, Matplotlib, Seaborn)
+- Histogram
+- Barplot
+- Line Chart
 
 ---
 
@@ -59,6 +68,12 @@ Tools used:
 | Improve checkout usability | +10–15% conversion lift |
 | Reallocate ad spend to desktop-dominant channels | Better CPA / ROAS |
 | Launch loyalty perk for returning visitors | Higher repeat revenue |
+
+---
+![summary statistics](https://github.com/peter28data/Python/blob/main/summarystatistics_outliers.png)
+
+---
+The code above utilized Exploratory Data Analysis to find the summary statistics of the 'clicks' feature from the dataset. Variable such as average, minimum, maximum, and standard deviation were necessary to produce the histogram and other visuals here. 
 
 ---
 
