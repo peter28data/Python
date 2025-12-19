@@ -72,7 +72,6 @@ model_preds = {
 for model, preds in model_preds.items():
   print(f"{model} Results:\n{classification_report(y_test, preds)}"
 
-
 ### Bagging and Random Forests
 # Import DecisionTreeClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -161,7 +160,6 @@ importances_sorted.plot(kind='barh', color='lightgreen')
 plt.title('Features Importances')
 plt.show()
 
-
 ### AdaBoost Classifier
 # Import DecisionTreeClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -190,7 +188,6 @@ ada_roc_auc = roc_auc_score(y_test, y_pred_proba)
 # Print roc_auc_score
 print('ROC AUC score: {:.2f}'.format(ada_roc_auc))
 
-
 ### Gradient Boosting
 # Import GradientBoostingRegressor
 from sklearn.ensemble import GradientBoostingRegressor
@@ -217,7 +214,6 @@ rmse_test = MSE(y_test, y_pred)**(1/2)
 
 # Print RMSE
 print('Test set RMSE of gb: {:.3f}'.format(rmse_test))
-
 
 ### Stochastic Gradient Boosting
 # Import GradientBoostingRegressor
@@ -250,14 +246,14 @@ print('Test set RMSE of sgbr: {:.3f}'.format(rmse_test))
 
 
 ### Model Tuning: Classification and Regression Trees (CART) are a set of supervised learning models.
-Parameters: learned from data such as split-point of a node, split-feature of a node.
-Hyperparameters: not learned from data, set prior to training such as max_depth, min_samples_leaf, splitting criterion
+# Parameters: learned from data such as split-point of a node, split-feature of a node.
+# Hyperparameters: not learned from data, set prior to training such as max_depth, min_samples_leaf, splitting criterion
 
-Hyperparameter Tuning is finding a set of optimal hyperparameters that result in the highest accuracy for clasification problems and highest R^2 for regression problems. 
--Grid Search 
--Random Search
--Bayesian Optimization
--Genetic Algorithms
+#Hyperparameter Tuning is finding a set of optimal hyperparameters that result in the highest accuracy for clasification problems and highest R^2 for regression problems. 
+#-Grid Search 
+#-Random Search
+#-Bayesian Optimization
+#-Genetic Algorithms
 
 # Import GridSearchCV and define the grid of hyperparameters to tune
 from sklearn.model_selection import GridSearchCV
@@ -272,6 +268,7 @@ grid_dt = GridSearchCV(estimator=dt,
                       cv=10,
                       n_jobs=-1)
 grid_dt.fit(X_train, y_train)
+
 # Extract best hyperparameters from 'grid_dt'
 best_hyperparams = grid_dt.best_params_
 print('Best hyperparameters:\n', best_hyperparams)
@@ -296,6 +293,8 @@ grid_rf = GridSearchCV(estimator=rf,
                         scoring='neg_mean_squared_error',
                         cv=3,
                         verbose=1,
+
+# ------------------------------------------                       
                         n_jobs=-1)
 
 # Evaluate the optimal forest 
