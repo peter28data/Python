@@ -50,7 +50,13 @@ Help marketing and product teams:
 | KPIs | CTR, Conversion %, Bounce %, AOV, Customer Value Contribution |
 
 ---
+![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
+
+---
 ![conversion & devices code](https://github.com/peter28data/Python/blob/main/conversion_devices_code.png)
+
+---
+![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 
 ---
 
@@ -75,6 +81,11 @@ Tools used:
 ---
 The code above utilized Exploratory Data Analysis to find the summary statistics of the 'clicks' feature from the dataset. Variable such as average, minimum, maximum, and standard deviation were necessary to produce the histogram and other visuals here. 
 
+The code below removes duplicate data to begin the EDA process. 
+
+---
+![duplicates](https://github.com/peter28data/Python/blob/main/duplicates.png)
+
 ---
 
 ## 🧩 Future Opportunities
@@ -87,7 +98,6 @@ The code above utilized Exploratory Data Analysis to find the summary statistics
 ## 🤝 Contact
 For questions or collaboration opportunities:
 
-**Your Name**  
 📧 peter.garayrobles@gmail.com  
 🔗 Portfolio Link: https://github.com/peter28data/SQL-/blob/main/8_10_2025_Cleaning%20Data.sql
 
