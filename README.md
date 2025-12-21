@@ -1,22 +1,26 @@
-# Web Analytics ROI Optimization – Data Insights Project
+# 📌Web Analytics ROI Optimization – Data Insights Project
 
-## 📌 Overview
-This project focuses on analyzing user web engagement data to identify opportunities for increasing conversions and maximizing marketing ROI. Key performance indicators (KPIs) such as page views, click-through rates, and purchase behavior were evaluated to provide actionable recommendations that improve the customer journey and business outcomes.
+##  Overview
+This project focuses on analyzing user web engagement data to identify opportunities for increasing conversions and maximizing marketing ROI. 
+
+Key performance indicators (KPIs) such as page views, click-through rates, and purchase behavior were evaluated to provide actionable recommendations that improve the customer journey.
 
 ---
+![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
 
-## 🎯 Business Objective
+---
+## 1️⃣ This Histogram is from the Python code below:
 Help marketing and product teams:
-- Reduce drop-off between engagement and conversion
 - Improve landing page performance
 - Prioritize content that drives high-value actions (purchases)
 
 ---
+![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
+
+---
 
 ## 📊 Key Insights Summary
-
-### 1️⃣ Users are engaging but not converting at the same rate
-![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
+###  Users are engaging but not converting at the same rate
 - Average **Time on Page** and **Page Views per User** show healthy interest
 - But **Conversion Rate** remains significantly lower than expected
 
@@ -38,9 +42,7 @@ Help marketing and product teams:
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
-![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
 
----
 
 ## 🧪 Methodology
 | Area | Technique |
@@ -53,9 +55,7 @@ Help marketing and product teams:
 ![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
 
 ---
-![conversion & devices code](https://github.com/peter28data/Python/blob/main/conversion_devices_code.png)
 
----
 ![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 
 ---
