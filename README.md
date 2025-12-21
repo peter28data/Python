@@ -1,22 +1,44 @@
 # 📌Web Analytics ROI Optimization – Data Insights Project
 
 ##  Overview
-This project focuses on analyzing user web engagement data to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
-Key performance indicators (KPIs) such as page views, click-through rates, and purchase behavior were evaluated to provide actionable recommendations that improve the customer journey.
+1. This project focuses on analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
----
-![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
+2. Key performance indicators (KPIs) such as **page views, click-through rates, and purchase behavior** were evaluated to provide actionable recommendations that improve the customer journey.
 
 ---
 ## 1️⃣ This Histogram is from the Python code below:
+
+![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
+
+---
+📌 Lines 5-8 are Imported Libraries that allow for graphs to be generated inside of Python.
+
+📌 Lines 11-16 are NumPy library code to generate Mock Data in the graphs.
+
+---
+![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
+
+---
+
+🎯 Business Objective
 Help marketing and product teams:
 - Improve landing page performance
 - Prioritize content that drives high-value actions (purchases)
 
 ---
-![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
 
+## 2️⃣ This Line Chart is labeled as "Conversion Funnel" in the Python code below:
+![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
+
+---
+
+![devices code](https://github.com/peter28data/Python/blob/main/conversion_devices_code.png)
+
+---
+
+## 3️⃣ This Barplot is labeled as "Device Conversion Comparison" in the Python code Above:
+![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
 
 ---
 
@@ -27,16 +49,9 @@ Help marketing and product teams:
 
   ↳ A focused review of friction points during checkout is necessary 
 
-### 2️⃣ Mobile traffic is high — but cost-inefficient
-![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
-- **Mobile users generate ~60% of sessions**
-- Yet **Desktop users drive a higher percentage of purchases**
-- Digital ad spend is currently overweighted toward mobile
-  
-  ↳ Shift budget to desktop campaigns to improve ROI
+---
 
-### 3️⃣ Returning Customers provide disproportionate revenue
-![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
+### 📊 Returning Customers provide disproportionate revenue
 - Returning visitors show higher **Add-to-Cart Rate**, **AOV**, and **Final Conversions**
 - Current experience doesn’t reward loyalty
   
@@ -44,20 +59,20 @@ Help marketing and product teams:
 
 ---
 
+### 📊 Mobile users generate ~60% of sessions
+- Yet **Desktop users drive a higher percentage of purchases**
+- Digital ad spend is currently overweighted toward mobile
+  
+  ↳ Shift budget to desktop campaigns to improve ROI
+
+---
 
 ## 🧪 Methodology
 | Area | Technique |
 |------|-----------|
 | Mock Data | NumPy Library, Matplotlib Visuals, Seaborn for Categorical plot |
-| Analysis | Funnel evaluation, segmentation (device & visitor type) |
-| KPIs | CTR, Conversion %, Bounce %, AOV, Customer Value Contribution |
-
----
-![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
-
----
-
-![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
+| Analysis | Funnel evaluation, Segmentation (device & visitor type) |
+| KPIs | CTR, Conversion %, Bounce %, Customer Value Contribution |
 
 ---
 
@@ -66,6 +81,30 @@ Tools used:
 - Histogram
 - Barplot
 - Line Chart
+
+However:
+
+In real-world datasets, the code below utilizes one of many cleaning techniques to begin the Exploratory Data Analysis (EDA) process.
+
+For now, a snippet is shown below to remove duplicated data often found in real-world data.
+
+---
+
+![duplicates](https://github.com/peter28data/Python/blob/main/duplicates.png)
+
+---
+
+🧪 The code below utilized **Exploratory Data Analysis (EDA)** to find the **Summary Statistics** of **the 'clicks' feature** from the dataset. 
+
+1. Variables such as average, minimum, maximum, and standard deviation were produced from the Line 20 of code.
+
+2. Lines 24-36 of code manages outliers in the 'clicks' feature. 
+
+---
+
+![summary statistics](https://github.com/peter28data/Python/blob/main/summarystatistics_outliers.png)
+
+![Click Here for Other Cleaning Techniques](https://github.com/peter28data/SQL/blob/main/9_6_2025_Cleaning%20Data.py)
 
 ---
 
@@ -77,26 +116,35 @@ Tools used:
 | Launch loyalty perk for returning visitors | Higher repeat revenue |
 
 ---
-![summary statistics](https://github.com/peter28data/Python/blob/main/summarystatistics_outliers.png)
-
----
-The code above utilized Exploratory Data Analysis to find the summary statistics of the 'clicks' feature from the dataset. Variable such as average, minimum, maximum, and standard deviation were necessary to produce the histogram and other visuals here. 
-
-The code below removes duplicate data to begin the EDA process. 
-
----
-![duplicates](https://github.com/peter28data/Python/blob/main/duplicates.png)
-
----
 
 ## 🧩 Future Opportunities
-- Predictive modeling for purchase likelihood
+- Predictive modeling for purchase likelihood is the code below
 - Attribution modeling to improve channel efficiency
-- A/B testing on high-exit pages
+- A/B testing on high-exit pages is the Signinficance Testing code below
 
 ---
 
-## 🤝 Contact
+![classifier](https://github.com/peter28data/Python/blob/main/decision%20tree%20classifier.png)
+
+---
+
+![regression](https://github.com/peter28data/Python/blob/main/decision%20tree%20regression.png)
+
+---
+
+![generalization error](https://github.com/peter28data/Python/blob/main/generalization%20error.png)
+
+---
+
+![evaluate](https://github.com/peter28data/Python/blob/main/evaluate%20classifiers.png)
+
+---
+
+![significance testing](https://github.com/peter28data/Python/blob/main/signifiance%20test.png)
+
+---
+
+## 🤝 Done!  Thank you for Reading
 For questions or collaboration opportunities:
 
 📧 peter.garayrobles@gmail.com  
