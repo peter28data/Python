@@ -1,7 +1,15 @@
-# 📌Web Analytics ROI Optimization 
-# 🧪Exploratory Data Analysis Project
+<h1 align="center">Peter Garay-Robles </h1>
 
-##  Overview
+<h3 align="center">A Data Engineer in SQL and Python.</h3>
+
+----
+
+# 📊 Web Analytics ROI Optimization 
+# 🧪 Exploratory Data Analysis - Python Project
+
+##  Executive Summary
+
+This project demonstrates data analysis using python to generate mock data, build graphs, and explore the data for statistics such as 
 
 1. This project focuses on analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
