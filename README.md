@@ -9,16 +9,16 @@
 
 ##  Executive Summary
 
-This project demonstrates data analysis using python to generate mock data, build graphs, and explore the data for statistics such as 
+This project demonstrates data analysis using python to generate mock data, build graphs, and explore the data for statistics such as standard deviation, minimum, and maximum. 
 
 1. This project focuses on analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
 2. Key performance indicators (KPIs) such as **page views, click-through rates, and purchase behavior** were evaluated to provide actionable recommendations that improve the customer journey.
 
 ---
-## 1️⃣ This Histogram is from the Python code below:
+## 1️⃣ Histogram from the Python code below:
 
-![Page Views](https://github.com/peter28data/python1/blob/main/page_views.png)
+![Page Views](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views.png)
 
 ---
 📌 Lines 5-8 are Imported Libraries that allow for graphs to be generated inside of Python.
@@ -26,7 +26,7 @@ This project demonstrates data analysis using python to generate mock data, buil
 📌 Lines 11-16 are NumPy library code to generate Mock Data in the graphs.
 
 ---
-![page views code](https://github.com/peter28data/Python/blob/main/page_views_code.png)
+![page views code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views_code.png)
 
 ---
 
@@ -37,17 +37,17 @@ Help marketing and product teams:
 
 ---
 
-## 2️⃣ This Line Chart is labeled as "Conversion Funnel" in the Python code below:
-![Funnel](https://github.com/peter28data/python1/blob/main/funnel.png)
+## 2️⃣ Line Chart "Conversion Funnel" in the Python code below:
+![Funnel](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/funnel.png)
 
 ---
 
-![devices code](https://github.com/peter28data/Python/blob/main/conversion_devices_code.png)
+![devices code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/conversion_devices_code.png)
 
 ---
 
-## 3️⃣ This Barplot is labeled as "Device Conversion Comparison" in the Python code Above:
-![Devices](https://github.com/peter28data/python1/blob/main/device_performance.png)
+## 3️⃣ Barplot "Device Conversion" in the Python code Above:
+![Devices](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/device_performance.png)
 
 ---
 
@@ -99,7 +99,7 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 
 ---
 
-![duplicates](https://github.com/peter28data/Python/blob/main/duplicates.png)
+![duplicates](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/duplicates.png)
 
 ---
 
@@ -111,9 +111,9 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 
 ---
 
-![summary statistics](https://github.com/peter28data/Python/blob/main/summarystatistics_outliers.png)
+![summary statistics](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/summarystatistics_outliers.png)
 
-![Click Here for Other Cleaning Techniques](https://github.com/peter28data/SQL/blob/main/9_6_2025_Cleaning%20Data.py)
+![Click Here for Other Cleaning Techniques](https://github.com/peter28data/SQL/blob/d828cb9eeacb768d5d4bae8303bfc66c1c8243f8/9_6_2025_Cleaning%20Data.py)
 
 ---
 
@@ -133,23 +133,34 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 
 ---
 
-![classifier](https://github.com/peter28data/Python/blob/main/decision%20tree%20classifier.png)
+## Machine Learning Models
+## Decision Tree Classification: Predict Malignant or Benign Tumor
+
+![classifier](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/decision%20tree%20classifier.png)
 
 ---
 
-![regression](https://github.com/peter28data/Python/blob/main/decision%20tree%20regression.png)
+## Decision Tree Regression: Predict Numeric Values
+
+![regression](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/decision%20tree%20regression.png)
 
 ---
 
-![generalization error](https://github.com/peter28data/Python/blob/main/generalization%20error.png)
+## Hyperparamter Tuning: Bias-Variance Tradeoff, Generalization Error
+
+![generalization error](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/generalization%20error.png)
 
 ---
 
-![evaluate](https://github.com/peter28data/Python/blob/main/evaluate%20classifiers.png)
+## Model Evaluation 
+
+![evaluate](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/evaluate%20classifiers.png)
 
 ---
 
-![significance testing](https://github.com/peter28data/Python/blob/main/signifiance%20test.png)
+## Statistics: Significance Test of Means Between Datasets
+
+![significance testing](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/signifiance%20test.png)
 
 ---
 
