@@ -5,7 +5,7 @@
 ----
 
 # 📊 Web Analytics ROI Optimization 
-# 🧪 Exploratory Data Analysis - Python Project
+# 📌 Exploratory Data Analysis - Python Project
 
 ##  Executive Summary
 
@@ -37,7 +37,7 @@ Help marketing and product teams:
 
 ---
 
-## 2️⃣ Line Chart "Conversion Funnel" in the Python code below:
+## 2️⃣ Line Chart "Conversion Funnel" code below:
 ![Funnel](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/funnel.png)
 
 ---
@@ -46,7 +46,7 @@ Help marketing and product teams:
 
 ---
 
-## 3️⃣ Barplot "Device Conversion" in the Python code Above:
+## 3️⃣ Barplot "Device Conversion" code Above:
 ![Devices](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/device_performance.png)
 
 ---
@@ -134,19 +134,19 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ---
 
 ## Machine Learning Models
-## Decision Tree Classification: Predict Malignant or Benign Tumor
+## 1️⃣ Decision Tree Classification: Predict Malignant or Benign Tumor
 
 ![classifier](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/decision%20tree%20classifier.png)
 
 ---
 
-## Decision Tree Regression: Predict Numeric Values
+## 2️⃣ Decision Tree Regression: Predict Numeric Values
 
 ![regression](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/decision%20tree%20regression.png)
 
 ---
 
-## Hyperparamter Tuning: Bias-Variance Tradeoff, Generalization Error
+## 3️⃣ Hyperparamter Tuning: Bias-Variance Tradeoff, Generalization Error
 
 ![generalization error](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/generalization%20error.png)
 
