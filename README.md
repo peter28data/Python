@@ -167,8 +167,10 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ## 🤝 Done!  Thank you for Reading
 For questions or collaboration opportunities:
 
-📧 peter.garayrobles@gmail.com  
-🔗 Portfolio Link: https://github.com/peter28data/SQL-/blob/main/8_10_2025_Cleaning%20Data.sql
+📧 Email: peter.garayrobles@gmail.com  
+🔗 Portfolio Link: https://github.com/peter28data/SQL
+
+🔗 Portfolio Link: https://github.com/peter28data/Python
 
 ---
 
