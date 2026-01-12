@@ -52,6 +52,15 @@ Help marketing and product teams:
 ---
 
 ## 📊 Key Insights Summary
+
+### 📊 Mobile users generate ~60% of sessions
+- Yet **Desktop users drive a higher percentage of purchases**
+- Digital ad spend is currently overweighted toward mobile
+  
+  ↳ Shift budget to desktop campaigns to improve ROI
+
+---
+
 ###  Users are engaging but not converting at the same rate
 - Average **Time on Page** and **Page Views per User** show healthy interest
 - But **Conversion Rate** remains significantly lower than expected
@@ -65,14 +74,6 @@ Help marketing and product teams:
 - Current experience doesn’t reward loyalty
   
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
-
----
-
-### 📊 Mobile users generate ~60% of sessions
-- Yet **Desktop users drive a higher percentage of purchases**
-- Digital ad spend is currently overweighted toward mobile
-  
-  ↳ Shift budget to desktop campaigns to improve ROI
 
 ---
 
@@ -168,9 +169,10 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 For questions or collaboration opportunities:
 
 📧 Email: peter.garayrobles@gmail.com  
-🔗 Portfolio Link: https://github.com/peter28data/SQL
 
-🔗 Portfolio Link: https://github.com/peter28data/Python
+🔗 SQL Portfolio Link: https://github.com/peter28data/SQL
+
+🔗 Current Portfolio Link: https://github.com/peter28data/Python
 
 ---
 
