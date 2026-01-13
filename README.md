@@ -53,24 +53,27 @@ Help marketing and product teams:
 
 ## 📊 Key Insights Summary
 
-### 📊 Mobile users generate ~60% of sessions
-- Yet **Desktop users drive a higher percentage of purchases**
+### 📊 ~60% of sessions from Mobile users 
+
 - Digital ad spend is currently overweighted toward mobile
+- Yet **Desktop users generate higher conversion rate**
   
   ↳ Shift budget to desktop campaigns to improve ROI
 
 ---
 
-###  Users are engaging but not converting at the same rate
-- Average **Time on Page** and **Page Views per User** show healthy interest
-- But **Conversion Rate** remains significantly lower than expected
+### 📊 Users are engaging but not converting at the same rate
 
-  ↳ A focused review of friction points during checkout is necessary 
+- **5-10 Page Views per User** show healthy interest
+- But Conversion Rate remains significantly lower than expected
+
+  ↳ A focused review of **friction** points during checkout is recommended 
 
 ---
 
-### 📊 Returning Customers provide disproportionate revenue
-- Returning visitors show higher **Add-to-Cart Rate**, **AOV**, and **Final Conversions**
+### 📊 3500 Users Add-to-Cart, ~600 Purchase
+
+- Returning visitors require sense of urgency for cart to checkout conversions
 - Current experience doesn’t reward loyalty
   
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
