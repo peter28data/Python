@@ -71,7 +71,7 @@ Help marketing and product teams:
 
 ---
 
-### 📊 3500 Users Add-to-Cart, ~600 Purchase
+### 📊 3500 Users Add-to-Cart Only ~600 Purchase
 
 - Returning visitors require sense of urgency for cart to checkout conversions
 - Current experience doesn’t reward loyalty
