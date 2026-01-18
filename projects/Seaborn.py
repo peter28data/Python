@@ -7,7 +7,6 @@ sns.displot(us_salaries['salary'],
 
 
 
-
 # --------------------------------------------------------------------------
 
 # Joint Grid, KDE Plot
@@ -42,14 +41,12 @@ sns.regplot(data=climate_change,
 
 
 
-
 # -----------------------------------------------------------------
 
 sns.relplot(x="age",
             y="rating",
             data=fifa_subset,
             kind="line")
-
 
 
 
@@ -62,14 +59,12 @@ sns.countplot(x="nationality",
 
 
 
-
 # -----------------------------------------------------------------
 
 sns.violinplot(data=state_unemployment, 
                y="Date",
                x="Unemployment_Rate",
                palette="Paired")
-
 
 
 
@@ -90,11 +85,6 @@ plt.show()
 
 # -----------------------------------------------------------------
 
-
-
-
-
-
-
+# Created on 10.9.2025 
 
 
