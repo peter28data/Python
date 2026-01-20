@@ -65,15 +65,16 @@ model_preds = {
   "Logistic Regression": log_reg_preds,
   "Support Vector Machine": svm_preds,
   "Decision Tree": tree_preds
-
-# We did not cover K-Nearest neighbors (KNN) classification with scikit-learn
 }
 
 for model, preds in model_preds.items():
   print(f"{model} Results:\n{classification_report(y_test, preds)}"
 
-### Bagging and Random Forests
+# -------------------------------------------------------------------
+        
+# Ensemble Learning: Bagging and Random Forests Models
 # Import DecisionTreeClassifier
+        
 from sklearn.tree import DecisionTreeClassifier
 
 # Import BaggingClassifier
@@ -125,8 +126,11 @@ acc_oob = bc.oob_score_
 # Print acc_test and acc_oob
 print('Test set accuracy: {:.3f}, OOB accuracy: {:.3f}'.format(acc_test, acc_oob))
 
-### Training Random Forests
+# ---------------------------------------------------------------
+
+# Training Random Forests
 # Import RandomForestRegressor
+
 from sklearn.ensemble import RandomForestRegressor
 
 # Instantiate rf
@@ -160,8 +164,11 @@ importances_sorted.plot(kind='barh', color='lightgreen')
 plt.title('Features Importances')
 plt.show()
 
-### AdaBoost Classifier
+# -------------------------------------------------------
+
+# AdaBoost Classifier
 # Import DecisionTreeClassifier
+
 from sklearn.tree import DecisionTreeClassifier
 
 # Import AdaBoostClassifier
@@ -188,8 +195,11 @@ ada_roc_auc = roc_auc_score(y_test, y_pred_proba)
 # Print roc_auc_score
 print('ROC AUC score: {:.2f}'.format(ada_roc_auc))
 
-### Gradient Boosting
+# -------------------------------------------------------
+
+# Gradient Boosting
 # Import GradientBoostingRegressor
+
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Instantiate gb
@@ -215,8 +225,11 @@ rmse_test = MSE(y_test, y_pred)**(1/2)
 # Print RMSE
 print('Test set RMSE of gb: {:.3f}'.format(rmse_test))
 
-### Stochastic Gradient Boosting
+# ---------------------------------------------------------
+
+# Stochastic Gradient Boosting
 # Import GradientBoostingRegressor
+
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Instantiate sgbr
@@ -244,12 +257,13 @@ rmse_test = mse_test**(1/2)
 # Print rmse_test
 print('Test set RMSE of sgbr: {:.3f}'.format(rmse_test))
 
+# -----------------------------------------------------------
 
-### Model Tuning: Classification and Regression Trees (CART) are a set of supervised learning models.
+# Model Tuning: Classification and Regression Trees (CART) are a set of supervised learning models.
 # Parameters: learned from data such as split-point of a node, split-feature of a node.
 # Hyperparameters: not learned from data, set prior to training such as max_depth, min_samples_leaf, splitting criterion
 
-#Hyperparameter Tuning is finding a set of optimal hyperparameters that result in the highest accuracy for clasification problems and highest R^2 for regression problems. 
+# Hyperparameter Tuning is finding a set of optimal hyperparameters that result in the highest accuracy for clasification problems and highest R^2 for regression problems. 
 #-Grid Search 
 #-Random Search
 #-Bayesian Optimization
@@ -292,9 +306,8 @@ grid_rf = GridSearchCV(estimator=rf,
                         param_grid=params_rf,
                         scoring='neg_mean_squared_error',
                         cv=3,
-                        verbose=1,
-
-# ------------------------------------------                       
+                        verbose=1,                 
                         n_jobs=-1)
 
-# Evaluate the optimal forest 
+
+# ------------------------------------------      
