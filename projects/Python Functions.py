@@ -1,3 +1,5 @@
+# --------------------- Create Zip File ----------------------------
+
 team_arrow = zip(code_names, characters_names)
 
 cnames, names = zip(*team_arrow)
@@ -5,7 +7,7 @@ cnames, names = zip(*team_arrow)
 print(names)
 
 
------------------------------------------------------------------
+# --------------------- Generator Function --------------------------
 
 # Generator function that loads data in chunks
 def read_large_file(file_object):
@@ -18,7 +20,7 @@ def read_large_file(file_object):
     yield data
 
 
------------------------------------------------------------------
+# --------------------- List Comprehension --------------------------
 
 matrix = [[col for col in range(1, 4)] for row in range(3)]
 
@@ -26,7 +28,7 @@ print(matrix)
 
 
 
------------------------------------------------------------------
+# --------------------- Nested Function -------------------------------
 
 def to_upper(heroes):
   for i in heroes:
@@ -35,7 +37,7 @@ def to_upper(heroes):
 print(list(to_upper(superhero_list)))
 
 
------------------------------------------------------------------
+# ---------------------- Dictionary Keys -------------------------------
 
 capitals = {'australia':'canberra', 'belgium':'brussels'}
 
@@ -45,6 +47,6 @@ for key, value in capitals.items():
 
 
 
------------------------------------------------------------------
+# --------------------------------------------------------------------
 
 # 11_17_2025 
