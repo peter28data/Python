@@ -12,12 +12,6 @@ print(nth_root(3)(27))
 
 
 
-
-'
-
-
-
-
 # ---------------------- Task 2: Return Largest from List --------------------------
 
 def sorted_elements(x, desc=True, n=2):
@@ -27,16 +21,11 @@ def sorted_elements(x, desc=True, n=2):
 
 
 
-
-
-
 # ---------------------- Task 3: Return Positive Numbers ----------------------------
 
 filter_positives = filter(lambda n: n > 0, x)
 
 print(list(filter_positives))
-
-
 
 
 
@@ -55,7 +44,6 @@ square('5')
 
 
 
-    
 # --------------------- Task 5 : Convert Yards to Feet if feet is True -----------------------------------------------------
 
 def conver_yards(y, feet=True):
@@ -67,26 +55,6 @@ def conver_yards(y, feet=True):
 
 
 
-
-
 # --------------------------------------------------------------------------
 
-# Created on 10_4_2025_
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Created on 10.4.2025
