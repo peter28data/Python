@@ -169,7 +169,7 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ---
 
 ## 🤝 Done!  Thank you for Reading
-For questions or collaboration opportunities:
+For project in SQL, click below:
 
 📧 Email: peter.garayrobles@gmail.com  
 
