@@ -1,6 +1,6 @@
 <h1 align="center">Peter Garay-Robles </h1>
 
-<h3 align="center">A Data Engineer in SQL and Python.</h3>
+<h3 align="center">A Senior Analyst in SQL and Python.</h3>
 
 ----
 
@@ -176,6 +176,8 @@ For project in SQL, click below:
 🔗 SQL Portfolio Link: https://github.com/peter28data/SQL
 
 🔗 Current Portfolio Link: https://github.com/peter28data/Python
+
+https://github.com/peter28data/github
 
 ---
 
