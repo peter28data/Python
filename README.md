@@ -178,7 +178,7 @@ For project in SQL, click below:
 
 🔗 Current Portfolio Link: https://github.com/peter28data/Python
 
-https://github.com/peter28data/github
+🔗 Tableau Portfolio Link: https://github.com/peter28data/github
 
 ---
 
