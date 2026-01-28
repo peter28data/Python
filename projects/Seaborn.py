@@ -21,7 +21,6 @@ joint = joint.plot_marginals(sns.kdeplot,
                              shade=True)
 
 
-
 # --------------------------------------------------------------------------
 
 # Regression Plot for Categorical Variable
