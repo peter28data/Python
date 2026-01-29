@@ -181,5 +181,3 @@ For project in SQL, click below:
 🔗 Tableau Portfolio Link: https://github.com/peter28data/github
 
 ---
-
-### ⭐ If you like this project, please star the repo!
