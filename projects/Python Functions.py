@@ -27,7 +27,6 @@ matrix = [[col for col in range(1, 4)] for row in range(3)]
 print(matrix)
 
 
-
 # --------------------- Nested Function -------------------------------
 
 def to_upper(heroes):
