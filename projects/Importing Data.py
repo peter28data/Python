@@ -24,7 +24,6 @@ print(table_names[0:4])
 
 
 
-
 # ----------------------- Task 3: Read part of CSV ---------------------------------
 
 titanic_data = pd.read_csv('titanic.csv', nrows=2, header=0)
