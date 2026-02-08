@@ -173,12 +173,13 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ## 🤝 Done!  Thank you for Reading
 For project in SQL, click below:
 
-📧 Email: peter.garayrobles@gmail.com  
 
 🔗 SQL Portfolio Link: https://github.com/peter28data/SQL
 
 🔗 Current Portfolio Link: https://github.com/peter28data/Python
 
 🔗 Tableau Portfolio Link: https://github.com/peter28data/github
+
+📧 Email: peter.garayrobles@gmail.com  
 
 ---
