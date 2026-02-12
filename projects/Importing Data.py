@@ -22,13 +22,10 @@ print(table_names[0:4])
 
 
 
-
 # ----------------------- Task 3: Read part of CSV ---------------------------------
 
 titanic_data = pd.read_csv('titanic.csv', nrows=2, header=0)
 print(titanic_data)
-
-
 
 
 
@@ -59,7 +56,6 @@ seaslugs = np.loadtxt(file,
                       delimiter= "/t",
                       skiprows=1)
 print(seaslugs[0:3])
-
 
 
 
