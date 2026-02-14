@@ -18,6 +18,31 @@ This project demonstrates data analysis using python to generate mock data, buil
 2. Key performance indicators (KPIs) such as **page views, click-through rates, and purchase behavior** were evaluated to provide actionable recommendations that improve the customer journey.
 
 ---
+
+## 🧪 Methodology
+| Area | Technique |
+|------|-----------|
+| Mock Data | NumPy Library, Matplotlib Visuals, Seaborn for Categorical plot |
+| Analysis | Funnel evaluation, Segmentation (device & visitor type) |
+| KPIs | CTR, Conversion %, Bounce %, Customer Value Contribution |
+
+
+Tools used:
+- Python (NumPy, Matplotlib, Seaborn)
+- Histogram
+- Barplot
+- Line Chart
+
+---
+
+🎯 Business Objective
+Help marketing and product teams:
+
+- Improve landing page performance
+- Prioritize content that drives high-value actions (purchases)
+
+---
+
 ## 1️⃣ Histogram from the Python code below:
 
 ![Page Views](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views.png)
@@ -29,13 +54,6 @@ This project demonstrates data analysis using python to generate mock data, buil
 
 ---
 ![page views code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views_code.png)
-
----
-
-🎯 Business Objective
-Help marketing and product teams:
-- Improve landing page performance
-- Prioritize content that drives high-value actions (purchases)
 
 ---
 
@@ -81,21 +99,6 @@ Help marketing and product teams:
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
-
-## 🧪 Methodology
-| Area | Technique |
-|------|-----------|
-| Mock Data | NumPy Library, Matplotlib Visuals, Seaborn for Categorical plot |
-| Analysis | Funnel evaluation, Segmentation (device & visitor type) |
-| KPIs | CTR, Conversion %, Bounce %, Customer Value Contribution |
-
----
-
-Tools used:
-- Python (NumPy, Matplotlib, Seaborn)
-- Histogram
-- Barplot
-- Line Chart
 
 However:
 
