@@ -4,8 +4,8 @@
 
 ----
 
-# 📊 Web Analytics ROI Optimization 
 # 📌 Exploratory Data Analysis - Python Project
+## Web Analytics ROI Optimization 
 
 
 
@@ -33,9 +33,9 @@ Tools used:
 - Barplot
 - Line Chart
 
----
 
-🎯 Business Objective
+## 🎯 Business Objective
+
 Help marketing and product teams:
 
 - Improve landing page performance
