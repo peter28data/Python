@@ -71,18 +71,10 @@ Help marketing and product teams:
 
 ---
 
-## 📊 Key Insights Summary
+## Key Insights Summary
 
-### 📊 ~60% of sessions from Mobile users 
 
-- Digital ad spend is currently overweighted toward mobile
-- Yet **Desktop users generate higher conversion rate**
-  
-  ↳ Shift budget to desktop campaigns to improve ROI
-
----
-
-### 📊 Users are engaging but not converting at the same rate
+### 1️⃣ Users are engaging but not converting at the same rate
 
 - **5-10 Page Views per User** show healthy interest
 - But Conversion Rate remains significantly lower than expected
@@ -91,12 +83,21 @@ Help marketing and product teams:
 
 ---
 
-### 📊 3500 Users Add-to-Cart Only ~600 Purchase
+### 2️⃣ 3500 Users Add-to-Cart Only ~600 Purchase
 
 - Returning visitors require sense of urgency for cart to checkout conversions
 - Current experience doesn’t reward loyalty
   
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
+
+---
+
+### 3️⃣ ~60% of sessions from Mobile users 
+
+- Digital ad spend is currently overweighted toward mobile
+- Yet **Desktop users generate higher conversion rate**
+  
+  ↳ Shift budget to desktop campaigns to improve ROI
 
 ---
 
