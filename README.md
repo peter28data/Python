@@ -43,11 +43,21 @@ Help marketing and product teams:
 
 ---
 
-## 1️⃣ Histogram from the Python code below:
+## 1️⃣ Histogram: Page Views Distribution
 
 ![Page Views](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views.png)
 
 ---
+
+### 1️⃣ Users are engaging but not converting at the same rate
+
+- **5-10 Page Views per User** show healthy interest
+- But Conversion Rate remains significantly lower than expected
+
+  ↳ A focused review of **friction** points during checkout is recommended 
+
+---
+
 📌 Lines 5-8 are Imported Libraries that allow for graphs to be generated inside of Python.
 
 📌 Lines 11-16 are NumPy library code to generate Mock Data in the graphs.
@@ -62,26 +72,7 @@ Help marketing and product teams:
 
 ---
 
-![devices code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/conversion_devices_code.png)
-
----
-
-## 3️⃣ Barplot "Device Conversion" code Above:
-![Devices](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/device_performance.png)
-
----
-
 ## Key Insights Summary
-
-
-### 1️⃣ Users are engaging but not converting at the same rate
-
-- **5-10 Page Views per User** show healthy interest
-- But Conversion Rate remains significantly lower than expected
-
-  ↳ A focused review of **friction** points during checkout is recommended 
-
----
 
 ### 2️⃣ 3500 Users Add-to-Cart Only ~600 Purchase
 
@@ -89,6 +80,15 @@ Help marketing and product teams:
 - Current experience doesn’t reward loyalty
   
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
+
+---
+
+![devices code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/conversion_devices_code.png)
+
+---
+
+## 3️⃣ Barplot "Device Conversion" code Above:
+![Devices](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/device_performance.png)
 
 ---
 
