@@ -1,6 +1,6 @@
 <h1 align="center">Peter Garay-Robles </h1>
 
-<h3 align="center">A Senior Analyst in SQL and Python.</h3>
+<h3 align="center">A Senior Analyst in SQL and Tableau. </h3>
 
 ----
 
@@ -175,18 +175,17 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ---
 
 ## 🤝 Done!  Thank you for Reading
-For project in SQL, click below:
+For project in Tableau, click below:
 
+🔗 Tableau Portfolio Link: https://github.com/peter28data/github
 
 🔗 SQL Portfolio Link: https://github.com/peter28data/SQL
 
 🔗 Current Portfolio Link: https://github.com/peter28data/Python
 
-🔗 Tableau Portfolio Link: https://github.com/peter28data/github
-
 ---
 
 ## 📫 How to Connect With Me:
 
-📧 Email: peter.garayrobles@gmail.com  
+🔗 Email: peter.garayrobles@gmail.com  
 
