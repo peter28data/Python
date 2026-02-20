@@ -67,7 +67,7 @@ Help marketing and product teams:
 
 ---
 
-## 2️⃣ Line Chart "Conversion Funnel" code below:
+## 2️⃣ Line Chart: Customer Conversion Funnel
 ![Funnel](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/funnel.png)
 
 ---
@@ -87,7 +87,7 @@ Help marketing and product teams:
 
 ---
 
-## 3️⃣ Barplot "Device Conversion" code Above:
+## 3️⃣ Barplot: Conversion By Device
 ![Devices](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/device_performance.png)
 
 ---
