@@ -36,7 +36,7 @@ Tools used:
 
 ## 🎯 Business Objective
 
-Help marketing and product teams:
+Help marketing and Product teams:
 
 - Improve landing page performance
 - Prioritize content that drives high-value actions (purchases)
