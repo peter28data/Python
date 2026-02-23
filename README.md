@@ -22,9 +22,9 @@ This project demonstrates data analysis using python to generate mock data, buil
 ## Methodology
 | Area | Technique |
 |------|-----------|
-| Mock Data | NumPy Library, Matplotlib Visuals, Seaborn for Categorical plot |
-| Analysis | Funnel evaluation, Segmentation (device & visitor type) |
-| KPIs | CTR, Conversion %, Bounce %, Customer Value Contribution |
+| Mock Data | NumPy Library, Matplotlib Charts, Seaborn for Categorical Plots |
+| Analysis | Funnel Evaluation, Segmentation (device & visitor type) |
+| KPIs | Conversion Rate %, CTR %, Customer Value Contribution |
 
 
 Tools used:
@@ -136,7 +136,7 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 
 ---
 
-## 🧩 Future Opportunities
+## Future Opportunities
 - Predictive modeling for purchase likelihood is the code below
 - Attribution modeling to improve channel efficiency
 - A/B testing on high-exit pages is the Signinficance Testing code below
