@@ -22,7 +22,7 @@ This project demonstrates data analysis using python to generate mock data, buil
 
 ---
 
-## Methodology
+## Sructured Approach
 | Area | Technique |
 |------|-----------|
 | Mock Data | NumPy Library, Matplotlib Charts, Seaborn for Categorical Plots |
