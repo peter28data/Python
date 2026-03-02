@@ -22,7 +22,7 @@ This project demonstrates data analysis using python to generate mock data, buil
 
 ---
 
-## Sructured Approach
+## Structured Approach
 | Area | Technique |
 |------|-----------|
 | Mock Data | NumPy Library, Matplotlib Charts, Seaborn for Categorical Plots |
@@ -39,7 +39,7 @@ Tools used:
 
 ## 📌 Business Objective
 
-Help marketing and Product teams:
+Help Marketing and Product Treams:
 
 - Improve landing page performance
 - Prioritize content that drives high-value actions (purchases)
