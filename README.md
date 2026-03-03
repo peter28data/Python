@@ -180,7 +180,7 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 ## 🤝 Done!  Thank you for Reading
 For project in Tableau, click below:
 
-🔗 Tableau Portfolio Link: https://github.com/peter28data/github
+🔗 Tableau Portfolio Link: https://github.com/peter28data/Tableau
 
 🔗 SQL Portfolio Link: https://github.com/peter28data/SQL
 
