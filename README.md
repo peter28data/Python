@@ -15,7 +15,6 @@ This project demonstrates data analysis using python to generate mock data, buil
 
 2. Key performance indicators (KPIs) such as **page views, click-through rates, and purchase behavior** were evaluated to provide actionable recommendations that improve the customer journey.
 
-
 ---
 
 ## Structured Approach
