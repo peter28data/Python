@@ -58,15 +58,6 @@ Help Marketing and Product Treams:
 
 ---
 
-📌 Lines 5-8 are Imported Libraries that allow for graphs to be generated inside of Python.
-
-📌 Lines 11-16 are NumPy library code to generate Mock Data in the graphs.
-
----
-![page views code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views_code.png)
-
----
-
 ## 2️⃣ Line Chart: Customer Conversion Funnel
 ![Funnel](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/funnel.png)
 
@@ -82,6 +73,16 @@ Help Marketing and Product Treams:
   ↳ Implement retention strategies (e.g., free shipping, loyalty promos)
 
 ---
+
+📌 Lines 5-8 are Imported Libraries that allow for graphs to be generated inside of Python.
+
+📌 Lines 11-16 are NumPy library code to generate Mock Data in the graphs.
+
+---
+![page views code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/page_views_code.png)
+
+---
+
 
 ![devices code](https://github.com/peter28data/Python/blob/f5914e272dacf7c8214f6ac7d552618c4e1c4793/images/conversion_devices_code.png)
 
