@@ -51,7 +51,7 @@ Help Marketing and Product Treams:
 
 ### 1️⃣ Users are engaging but not converting at the same rate
 
-- **5-10 Page Views per User** show healthy interest
+- **5-10 Page Views** per **User** show healthy interest
 - But Conversion Rate remains significantly lower than expected
 
   ↳ A focused review of **friction** points during checkout is recommended 
