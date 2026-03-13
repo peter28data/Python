@@ -93,6 +93,8 @@ Help Marketing and Product Treams:
 
 ---
 
+## Key Insights Summary
+
 ### 3️⃣ ~60% of sessions from Mobile users 
 
 - Digital ad spend is currently overweighted toward mobile
