@@ -116,7 +116,7 @@ For now, a snippet is shown below to remove duplicated data often found in real-
 
 ---
 
-🧪 The code below utilized **Exploratory Data Analysis (EDA)** to find the **Summary Statistics** of **the 'clicks' feature** from the dataset. 
+The code below utilized **Exploratory Data Analysis (EDA)** to find the **Summary Statistics** of **the 'clicks' feature** from the dataset. 
 
 1. Line 20 produces statistics such as average, minimum, maximum, and standard deviation.
 
