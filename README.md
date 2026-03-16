@@ -20,7 +20,7 @@ This project demonstrates data analysis using python to generate mock data, buil
 ## Structured Approach
 | Area | Technique |
 |------|-----------|
-| Mock Data | NumPy Library, Matplotlib Charts, Seaborn for Categorical Plots |
+| Mock Data | NumPy, Matplotlib, Seaborn for Categorical Plots |
 | Analysis | Funnel Evaluation, Segmentation (device & visitor type) |
 | KPIs | Conversion Rate %, CTR %, Customer Value Contribution |
 
