@@ -9,9 +9,9 @@
 
 ##  Executive Summary
 
-This project demonstrates data analysis using python to generate mock data, build graphs, and explore the data for statistics such as standard deviation, minimum, and maximum. 
+This project demonstrates data analysis using Python to Generate Mock Data, build graphs, and explore for statistics such as standard deviation, minimum, and maximum. 
 
-1. This project focuses on analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
+1. Analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
 2. Key performance indicators (KPIs) such as **page views, click-through rates, and purchase behavior** were evaluated to provide actionable recommendations that improve the customer journey.
 
