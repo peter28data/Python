@@ -9,7 +9,7 @@
 
 ##  Executive Summary
 
-This project demonstrates data analysis using Python to Generate Mock Data, build graphs, and explore for statistics such as standard deviation, minimum, and maximum. 
+This Project demonstrates Data Analysis using Python to Generate Mock Data, Build Graphs, and Explore for Statistics such as standard deviation, minimum, and maximum. 
 
 1. Analyzing user **web-engagement data** to identify opportunities for increasing conversions and maximizing marketing ROI. 
 
