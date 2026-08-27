@@ -4,7 +4,7 @@
 
 ----
 
-# 📌 Exploratory Data Analysis - Python Project
+# Exploratory Data Analysis - Python Project
 ## Web Analytics ROI Optimization 
 
 ##  Executive Summary
