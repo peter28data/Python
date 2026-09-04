@@ -1,10 +1,10 @@
 <h1 align="center">Peter Garay-Robles </h1>
 
-<h3 align="center"> Python for Data Analysis. </h3>
+<h3 align="center"> Python for Pipeline Automation. </h3>
 
 ----
 
-# Exploratory Data Analysis - Python Project
+## EDA & Data Processing - Python Project
 ## Web Analytics ROI Optimization 
 
 ##  Executive Summary
