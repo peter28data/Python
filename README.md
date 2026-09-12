@@ -4,8 +4,7 @@
 
 ----
 
-## EDA & Data Processing - Python Project
-## Web Analytics ROI Optimization 
+## Web Analytics ROI Optimization -  Python Project
 
 ##  Executive Summary
 
@@ -30,128 +29,16 @@ This Project demonstrates Data Analysis using Python to Generate Mock Data, Buil
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## Structured Approach
 | Area | Technique |
 |------|-----------|
-| Mock Data | NumPy, Matplotlib, Seaborn for Categorical Plots |
+| **Mock Data** | NumPy, Matplotlib, Seaborn for Categorical Plots |
 | Analysis | Funnel Evaluation, Segmentation (device & visitor type) |
-| KPIs | Conversion Rate %, CTR %, Customer Value Contribution |
+| **KPIs** | Conversion Rate %, CTR %, Customer Value Contribution |
 
 
-Tools used:
-- Python (NumPy, Matplotlib, Seaborn)
-- Histogram
-- Barplot
-- Line Chart
 
 
 ## 📌 Business Objective
@@ -174,9 +61,9 @@ Help Marketing and Product Treams:
 ### 1️⃣ Users are engaging but not converting at the same rate
 
 - **5-10 Page Views** per **User** show healthy interest
-- But Conversion Rate remains significantly lower than expected
+- Conversion Rate remains significantly lower than expected
 
-  ↳ A focused review of **friction** points during checkout is recommended 
+  ↳ Identify **friction** points during checkout (chart 3).
 
 ---
 
